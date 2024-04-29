@@ -4,6 +4,7 @@ import time       # to hold program
 import threading  # to work with flow
 import random
 
+#here is your Token
 bot = telebot.TeleBot("7190148247:AAFicu5jRorhQdF9HnoJHua91yBcqdTU3Rw")
 
 @bot.message_handler(commands=['start'])
